@@ -25,7 +25,7 @@ Create the Prevention Policy (AV) in the Crowdstrike console and scope it to the
 
 ***NOTE***: As of this writing, the Crowdstrike API can only add/subtract to static groups. 
 
-##Scripts
+## Scripts
 #### To Pull the API Token
 ```zsh
 curl -X POST "https://api.crowdstrike.com/oauth2/token" -H "accept: application/json" -H "Content-Type: application/x-www-form-urlencoded" -d "client_id=CLIENTID&client_secret=CLIENTSECRET" | grep "access_token" | awk '{print $2}' | sed 's/["",]//g'`
