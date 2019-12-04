@@ -47,7 +47,7 @@ curl -X GET "https://api.crowdstrike.com/devices/combined/host-groups/v1" -H "ac
 The return will be a list of both the Static and Dynamic Groups; have a look for your Static Group, and make a note of the ID. If you want, you could probably add grep to it;  I didn't in this example, in the off chance there will be a name change, or you want multiple group IDs for some reason.
 
 #### Finding a Device ID
-***NOTE*** 
+***NOTE***: 
 "Device ID", "Sensor ID", and "Agent ID (AID)" are all the same thing to Crowdstrike. It is important that all dashes be removed, and that the ID be lower case, otherwise assigning it to a group won't work (see below).
 
 ```
