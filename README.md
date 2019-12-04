@@ -34,7 +34,7 @@ curl -X POST "https://api.crowdstrike.com/oauth2/token" -H "accept: application/
 #### To Pull Group IDs
 To assign a device to a group, you need the Group ID. The Group ID is not visible in the Crowdstrike Console, so it must be pulled via API.
 The token must be requested first, and passed into a variable.
-You will see the group(s) name, as well as "ids" above it; the ids is the Group ID
+You will see the group(s) name, as well as "ids" above it; the ids is the Group ID.
 When you pull the Groups, it will also show you every device that's in that Group.
 
 ```
