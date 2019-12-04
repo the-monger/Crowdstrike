@@ -98,7 +98,7 @@ curl -X GET "https://api.crowdstrike.com/policy/combined/prevention/v1" -H "acce
 ```
 
 #### Find if a specific Policy ID is applied to a specific device
-***NOTE*** The Policy ID is substituted with POLICYID
+***NOTE*** The Policy ID is substituted with POLICYID.
 This script checks to see if a policy is applied to a device, returns *true* if it's applied, and *false* if it isn't.
 ```
 #Get the OAuth2 Token
