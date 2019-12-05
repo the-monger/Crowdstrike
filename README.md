@@ -9,6 +9,8 @@ HELPFUL TOOL: Postman. It's a lifesaver while you're trying to figure out things
 
 ## PRIMER
 
+I'm not going to go too deep into this section- this is pretty clearly spelled out in the Crowdstrike documentation. 
+
 First things first, you have to have an API client set up in Crowdstrike (see CS documentation)
 
 Setting up your API Client will provide you with a Client ID and a Client Secret. Keep those handy; I will refer to them as `CLIENTID` & `CLIENTSECRET` purely for sanitation purposes.
